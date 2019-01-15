@@ -1,0 +1,48 @@
+{
+	"basicServerData": {
+		"name": "WonderWorldz",
+		"ipv4": "128.199.231.138",
+		"port": 16365,
+		"saveFolderPath": "./savedata"
+	},
+	"gameplayMode": "Adventure",
+	"universeSize": "Normal",
+	"universeId": 0,
+	"hideConsoleWindow": false,
+	"admins": {
+		"credentials": {
+			"password": "admin_password_please_change"
+		},
+		"canLogin": true,
+		"canKickPlayers": true,
+		"canModifyWorld": true,
+		"canInteractWithCraftingStations": true,
+		"canInteractWithChests": true,
+		"canInteractWithDecorativeStorage": true,
+		"canInteractWithNPCs": true
+	},
+	"users": {
+		"credentials": {
+			"password": ""
+		},
+		"canLogin": true,
+		"canKickPlayers": false,
+		"canModifyWorld": true,
+		"canInteractWithCraftingStations": true,
+		"canInteractWithChests": true,
+		"canInteractWithDecorativeStorage": true,
+		"canInteractWithNPCs": true
+	},
+	"guests": {
+		"credentials": {
+			"password": ""
+		},
+		"canLogin": false,
+		"canKickPlayers": false,
+		"canModifyWorld": false,
+		"canInteractWithCraftingStations": false,
+		"canInteractWithChests": false,
+		"canInteractWithDecorativeStorage": false,
+		"canInteractWithNPCs": false
+	}
+}

@@ -1,0 +1,428 @@
+[GameFramework] Initialize 'ParseParameters' - #2
+pk_dedicated_server(release_1_5_x_switch) - version 189885 (master)
+[GameFramework] Initialize 'ProfilingTimer' - #3
+[GameFramework] Initialize 'Memory' - #4
+[memory] Allocated 500 MiB memory in 4 blocks:
+  Block: GameFramework_ResourceInit: 0x0000000000000000-0x0000000000000000              0 bytes Main
+  Block: GameFramework_Default     : 0x0000010000000000-0x000001000c7fffff    209,715,200 bytes Main
+  Block: GameFramework_Application : 0x0000010100000000-0x000001010c7fffff    209,715,200 bytes Main
+  Block: GameFramework_ResourceData: 0x0000010300000000-0x00000103063fffff    104,857,600 bytes Main
+
+[GameFramework] Initialize 'IniVariables' - #5
+[GameFramework] Initialize 'Config' - #6
+Reading config file 'D:/SteamLibrary/steamapps/common/Portal Knights/server/pk_dedicated_server.cfg'
+[GameFramework] Initialize 'Steam' - #7
+[GameFramework] Initialize 'Platform' - #9
+[GameFramework] Initialize 'Profiler' - #10
+[GameFramework] Initialize 'IssueTracker' - #25
+[GameFramework] Initialize 'EventLog' - #26
+[GameFramework] Initialize 'TaskSystem' - #23
+[task] Worker count: 3/3
+[GameFramework] Initialize 'FileSystem' - #11
+[GameFramework] Initialize 'SystemInformation' - #57
+SystemInformation:
+    device:
+        name      : 'Windows-PC'
+        id        : Unknwon
+        macAddress: ''
+        isRooted  : 0
+    cpu:
+        architecture: x64
+        bitCount    : 64
+        cpuCount    : 4
+        threadCount : 4
+        vendorId    : 'GenuineIntel'
+        brand       : 'Intel(R) Core(TM) i3-4150 CPU @ 3.50GHz'
+        hasSSE2     : 1
+        hasSSE42    : 1
+        hasAVX      : 1
+        hasAVX2     : 1
+        hasNeon     : 0
+    memory:
+        totalSize    : 8,524,177,408
+        allocatedSize: 4,044,832,768
+        freeSize     : 4,479,344,640
+        blocks:
+    os:
+        type        : Windows
+        version     : '6.2 (0.0) 9200'
+        distribution: ''
+        bitCount    : 64
+[GameFramework] Initialize 'GraphicsSettings' - #27
+[GameFramework] Initialize 'VrSystem' - #28
+[GameFramework] Initialize 'GraphicsSystem' - #29
+[GameFramework] Initialize 'WaitForBackBufferSize' - #30
+[GameFramework] Initialize 'DebugRenderer' - #32
+[GameFramework] Initialize 'DebugFont' - #33
+[GameFramework] Initialize 'ImmediateRenderer' - #34
+[GameFramework] Initialize 'NetworkSystem' - #12
+[GameFramework] Initialize 'MessageSystem' - #13
+[GameFramework] Initialize 'GooglePlay' - #38
+[GameFramework] Initialize 'UserSystem' - #39
+[GameFramework] Initialize 'InputSystem' - #55
+[GameFramework] Initialize 'DefaultPlayer' - #56
+[GameFramework] Initialize 'NpWebApi' - #8
+[GameFramework] Initialize 'DebugUi' - #22
+[GameFramework] Initialize 'DebugTextConsole' - #36
+[GameFramework] Initialize 'GameConnection' - #14
+[GameFramework] Initialize 'ClearScreen' - #54
+[GameFramework] Initialize 'GameConnectionClient' - #15
+[GameFramework] Initialize 'GameConnectionServices' - #16
+[GameFramework] Initialize 'NetworkFileSystem' - #17
+[GameFramework] Initialize 'MountApp' - #18
+[GameFramework] Initialize 'MountGamebuild' - #20
+[GameFramework] Initialize 'MountPackage' - #21
+[GameFramework] Initialize 'MountPackage' - #21
+[GameFramework] Initialize 'MountPackage' - #21
+[GameFramework] Initialize 'MountPackage' - #21
+[GameFramework] Initialize 'MountPackage' - #21
+[GameFramework] Initialize 'MountPackage' - #21
+[GameFramework] Initialize 'MountPackage' - #21
+[GameFramework] Initialize 'MountPackage' - #21
+[GameFramework] Initialize 'MountPackage' - #21
+[GameFramework] Initialize 'MountPackage' - #21
+[GameFramework] Initialize 'MountPackage' - #21
+[GameFramework] Initialize 'MountShader' - #19
+[GameFramework] Initialize 'ReadIniVariables' - #24
++--"":  (#1) Memory -> 'linkedresourcespakfile: 22'
+    |
+    +--"gamebuild":  (#0) Archive -> '/gamebuild_path/server_core_small'
+    |                (#0) Archive -> '/gamebuild_path/server_core'
+    |
+    +--"content":  (#0) Alias -> '/gamebuild/'
+    |
+    +--"gamebuild_path":  (#1) Memory -> 'server_core_small.kfc_data: 15280432'
+    |                     (#0) Alias -> '/app/'
+    |
+    +--"app":  (#1) Native -> 'D:/SteamLibrary/steamapps/common/Portal Knights/server/'
+    |
+    +--"cache":  (#0) Native -> 'C:/Users/GFZ-DE~1/AppData/Local/Temp/'
+    |
+    +--"shader":  (#0) Alias -> '/rom/'
+    |
+    +--"rom":  (#0) Archive -> '/linkedresourcespakfile'
+[GameFramework] Initialize 'SoundSystem' - #37
+[GameFramework] Initialize 'SaveDataSystem' - #40
+[GameFramework] Step took 27 ms
+[GameFramework] Initialize 'PluginSystem' - #41
+[GameFramework] Initialize 'TitleSmallStorage' - #42
+[GameFramework] Initialize 'ContentSystem' - #43
+[GameFramework] Initialize 'ResourceSystem' - #44
+[GameFramework] Initialize 'GenericResourceFactory' - #45
+[GameFramework] Initialize 'CoreResourcePackage' - #46
+[resource] Started to load package file '/gamebuild/server_core.rip'
+[GameFramework] Initialize 'CoreResourcePackage' - #46
+core resource package loaded
+[GameFramework] Initialize 'FillContentCache' - #47
+[GameFramework] Initialize 'OnlineSystem' - #48
+[GameFramework] Initialize 'AchievementSystem' - #49
+[GameFramework] Initialize 'CommerceSystem' - #50
+[GameFramework] Initialize 'VideoRecording' - #51
+[GameFramework] Initialize 'SocialGaming' - #52
+[GameFramework] Initialize 'WatchDog' - #53
+[GameFramework] Initialize 'DebugMenu' - #35
+[GameFramework] Initialize 'InitializeApplication_Step0' - #58
+FSM:        'StartServer'::Enter #0
+
+[GameFramework] Step took 25 ms
+FSM:        'StartServer'::Enter #1
+
+[GameFramework] Initialize 'InitializeApplication_Step0' - #58
+FSM:        'StartServer'::Enter #2
+
+[GameFramework] Step took 52 ms
+FSM:        'StartServer'::Enter #3
+
+[GameFramework] Initialize 'InitializeApplication_Step0' - #58
+[GameFramework] Initialize 'InitializeApplication_Step0' - #58
+FSM:        'StartServer'::Enter #4
+
+[GameFramework] Initialize 'InitializeApplication_Step0' - #58
+FSM:        'StartServer'::Enter #5
+
+[GameFramework] Step took 30 ms
+[GameFramework] Initialize 'InitializeApplication_Step0' - #58
+[GameFramework] Initialize 'InitializeApplication_Step0' - #58
+[GameFramework] Initialize 'InitializeApplication_Step0' - #58
+[GameFramework] Initialize 'InitializeApplication_Step0' - #58
+[GameFramework] Initialize 'InitializeApplication_Step0' - #58
+[GameFramework] Initialize 'InitializeApplication_Step0' - #58
+[GameFramework] Initialize 'InitializeApplication_Step0' - #58
+[GameFramework] Initialize 'InitializeApplication_Step0' - #58
+[GameFramework] Initialize 'InitializeApplication_Step0' - #58
+[GameFramework] Initialize 'InitializeApplication_Step0' - #58
+[GameFramework] Initialize 'InitializeApplication_Step0' - #58
+[GameFramework] Initialize 'InitializeApplication_Step0' - #58
+[GameFramework] Initialize 'InitializeApplication_Step0' - #58
+[GameFramework] Initialize 'InitializeApplication_Step0' - #58
+[GameFramework] Initialize 'InitializeApplication_Step0' - #58
+FSM:        'StartServer'::Enter #6
+
+[GameFramework] Initialize 'InitializeApplication_Step0' - #58
+[GameFramework] Initialize 'InitializeApplication_Step0' - #58
+[GameFramework] Initialize 'InitializeApplication_Step0' - #58
+[GameFramework] Initialize 'InitializeApplication_Step0' - #58
+FSM:        'StartServer'::Enter #7
+
+[GameFramework] Step took 19 ms
+[GameFramework] Initialize 'InitializeApplication_Step0' - #58
+[GameFramework] Initialize 'InitializeApplication_Step0' - #58
+[GameFramework] Initialize 'InitializeApplication_Step0' - #58
+[GameFramework] Initialize 'InitializeApplication_Step0' - #58
+[GameFramework] Initialize 'InitializeApplication_Step0' - #58
+[GameFramework] Initialize 'InitializeApplication_Step0' - #58
+[GameFramework] Initialize 'InitializeApplication_Step0' - #58
+[GameFramework] Initialize 'InitializeApplication_Step0' - #58
+[GameFramework] Initialize 'InitializeApplication_Step0' - #58
+[GameFramework] Initialize 'InitializeApplication_Step0' - #58
+FSM:        'StartServer'::Enter #8
+
+FSM:        'StartServer'::Enter #9
+
+[GameFramework] Initialize 'InitializeApplication_Step0' - #58
+FSM:        'StartServer'::Enter #10
+
+[GameFramework] Initialize 'InitializeApplication_Step0' - #58
+[GameFramework] Initialize 'InitializeApplication_Step0' - #58
+Loaded Universe 0 Named 'Awesome Dedicated Universe ( ADU )'FSM:        'StartServer'::Enter #11
+
+[GameFramework] Initialize 'InitializeApplication_Step0' - #58
+FSM:        'StartServer'::Enter #12
+
+FSM:        'StartServer'::Enter #13
+
+[Session] started transition from 'Lobby' to 'Host_Lan' (current='<invalid>')!
+[Session] 'PrepareGame' (up)!
+[LanSystem] started transition from 'Initialized' to 'Host' (current='<invalid>')!
+[GameFramework] Initialize 'InitializeApplication_Step0' - #58
+[lan][server] Listening on 0.0.0.0:16365.
+[LanSystem] 'CreateServer' (up)!
+[LanSystem] 'HostGame' (up)!
+[LanSystem] 'AddLocalUsers' (up)!
+[LanSystem] 'ConnectToPeers' (up)!
+[LanSystem] finished transition from 'Initialized' to 'Host' (current='Host')!
+[Session] 'HostLan' (up)!
+[Session] 'JoinPlayers' (up)!
+[Session] finished transition from 'Lobby' to 'Host_Lan' (current='Host_Lan')!
+[GameFramework] Initialize 'InitializeApplication_Step0' - #58
+[GameFramework] Initialize 'InitializeApplication_Step0' - #58
+FSM:        'StartServer'::Enter #14
+
+[Server::start]
+[GameFramework] Initialize 'InitializeApplication_Step0' - #58
+Server 'Servername' has started
+FSM:  triggered 'finished'
+[GameFramework] Initialize 'InitializeApplication_Step0' - #58
+FSM:        'ReadyToServe'::Enter #0
+
+[GameFramework] Initialize 'InitializeApplication_Step1' - #59
+[GameFramework] Initialize 'InitializeApplication_Step2' - #60
+[GameFramework] Initialize 'InitializeApplication_Step3' - #61
+FSM:        'ReadyToServe'::Execute #0
+
+[GameFramework] Shutdown 'InitializeApplication_Step3' - #61
+[GameFramework] Shutdown 'InitializeApplication_Step2' - #60
+[GameFramework] Shutdown 'InitializeApplication_Step1' - #59
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+FSM:  triggered 'stop'
+FSM:        'ReadyToServe'::Exit #0
+
+FSM:        'StartServer'::Exit #14
+
+[Server::stop]
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+FSM:        'StartServer'::Exit #13
+
+[Session] started transition from 'Host_Lan' to 'Lobby' (current='<invalid>')!
+[Session] 'JoinPlayers' (down)!
+[LanSystem] started transition from 'Host' to 'Initialized' (current='<invalid>')!
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[LanSystem] 'ConnectToPeers' (down)!
+[LanSystem] 'AddLocalUsers' (down)!
+[LanSystem] 'HostGame' (down)!
+[LanSystem] 'CreateServer' (down)!
+[LanSystem] finished transition from 'Host' to 'Initialized' (current='Initialized')!
+[Session] 'HostLan' (down)!
+[Session] 'PrepareGame' (down)!
+[Session] finished transition from 'Host_Lan' to 'Lobby' (current='Lobby')!
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+FSM:        'StartServer'::Exit #12
+
+FSM:        'StartServer'::Exit #11
+
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+FSM:        'StartServer'::Exit #10
+
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+FSM:        'StartServer'::Exit #9
+
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+FSM:        'StartServer'::Exit #8
+
+FSM:        'StartServer'::Exit #7
+
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+FSM:        'StartServer'::Exit #6
+
+FSM:        'StartServer'::Exit #5
+
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+FSM:        'StartServer'::Exit #4
+
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+[GameFramework] Step took 198 ms
+FSM:        'StartServer'::Exit #3
+
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+FSM:        'StartServer'::Exit #2
+
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+FSM:        'StartServer'::Exit #1
+
+FSM:        'StartServer'::Exit #0
+
+Bye
+[GameFramework] Shutdown 'InitializeApplication_Step0' - #58
+FSM:        'Stopped'::Enter #0
+
+[GameFramework] Shutdown 'DebugMenu' - #35
+[GameFramework] Shutdown 'WatchDog' - #53
+[GameFramework] Shutdown 'SocialGaming' - #52
+[GameFramework] Shutdown 'VideoRecording' - #51
+[GameFramework] Shutdown 'CommerceSystem' - #50
+[GameFramework] Shutdown 'AchievementSystem' - #49
+[GameFramework] Shutdown 'OnlineSystem' - #48
+[GameFramework] Shutdown 'FillContentCache' - #47
+[GameFramework] Shutdown 'CoreResourcePackage' - #46
+[resources] Unloading package data #0
+[GameFramework] Shutdown 'GenericResourceFactory' - #45
+[GameFramework] Shutdown 'ResourceSystem' - #44
+[GameFramework] Shutdown 'ContentSystem' - #43
+[GameFramework] Shutdown 'TitleSmallStorage' - #42
+[GameFramework] Shutdown 'PluginSystem' - #41
+[GameFramework] Shutdown 'SaveDataSystem' - #40
+FSM:        'Stopped'::Execute #0
+
+[GameFramework] Shutdown 'SaveDataSystem' - #40
+[GameFramework] Shutdown 'SoundSystem' - #37
+[GameFramework] Shutdown 'ReadIniVariables' - #24
+[GameFramework] Shutdown 'MountShader' - #19
+[GameFramework] Shutdown 'MountPackage' - #21
+[GameFramework] Shutdown 'MountGamebuild' - #20
+[GameFramework] Shutdown 'MountApp' - #18
+[GameFramework] Shutdown 'NetworkFileSystem' - #17
+[GameFramework] Shutdown 'GameConnectionServices' - #16
+[GameFramework] Shutdown 'GameConnectionClient' - #15
+[GameFramework] Shutdown 'ClearScreen' - #54
+[GameFramework] Shutdown 'GameConnection' - #14
+[GameFramework] Shutdown 'DebugTextConsole' - #36
+[GameFramework] Shutdown 'DebugUi' - #22
+[GameFramework] Shutdown 'NpWebApi' - #8
+[GameFramework] Shutdown 'DefaultPlayer' - #56
+[GameFramework] Shutdown 'InputSystem' - #55
+[GameFramework] Shutdown 'UserSystem' - #39
+[GameFramework] Shutdown 'GooglePlay' - #38
+[GameFramework] Shutdown 'MessageSystem' - #13
+[GameFramework] Shutdown 'NetworkSystem' - #12
+[GameFramework] Shutdown 'ImmediateRenderer' - #34
+[GameFramework] Shutdown 'DebugFont' - #33
+[GameFramework] Shutdown 'DebugRenderer' - #32
+[GameFramework] Shutdown 'WaitForBackBufferSize' - #30
+[GameFramework] Shutdown 'GraphicsSystem' - #29
+[GameFramework] Shutdown 'VrSystem' - #28
+[GameFramework] Shutdown 'GraphicsSettings' - #27
+[GameFramework] Shutdown 'SystemInformation' - #57
+[GameFramework] Shutdown 'FileSystem' - #11
+[GameFramework] Shutdown 'TaskSystem' - #23
+[GameFramework] Shutdown 'EventLog' - #26
+[GameFramework] Shutdown 'IssueTracker' - #25
+[GameFramework] Shutdown 'Profiler' - #10
+[GameFramework] Shutdown 'Platform' - #9
+[GameFramework] Shutdown 'Steam' - #7
+[GameFramework] Shutdown 'Config' - #6
+[GameFramework] Shutdown 'IniVariables' - #5
+[GameFramework] Shutdown 'Memory' - #4
+[GameFramework] Step took 19 ms
+[GameFramework] Shutdown 'ProfilingTimer' - #3
+[GameFramework] Shutdown 'ParseParameters' - #2
+[GameFramework] Shutdown 'Debug' - #1
